@@ -50,7 +50,7 @@ export const getRecipeById = async (id) => {
   return res.json();
 };
 
-// ---------- MEAL PLAN ----------
+// ---------- MEAL PLAN ---------
 export const getMealPlan = async (week) => {
   const url = week
     ? `${API_URL}/mealplan?week=${encodeURIComponent(week)}`
